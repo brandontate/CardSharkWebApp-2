@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Event";
+}
+<div class="container col-md-12 orgtitle">
+    <h2>Pick An Event</h2>
+    <div class="outerCardBox" ng-controller="MatchCtrl">
+        <div ng-repeat="match in matches">
+            <div class="container col-xs-8 col-md-6 orgcard">
+                <div class="orgcardimg {{match.name}}-Card"></div>
+            </div>
+        </div>
+    </div>
+</div>
