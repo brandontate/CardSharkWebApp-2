@@ -208,6 +208,18 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Fastlane-Logo.png" />
+    <Content Include="Images\Fastlane-small-logo.png" />
+    <Content Include="Images\Royal-Rumble-Logo.jpg" />
+    <Content Include="Images\Royal-Rumble-small-logo.jpg" />
+    <Content Include="Images\TLC-logo.png" />
+    <Content Include="Images\TLC-small-logo.png" />
+    <Content Include="Images\UFC-logo.png" />
+    <Content Include="Images\UFC-small-logo.png" />
+    <Content Include="Images\Wresltemania-Logo.png" />
+    <Content Include="Images\Wresltemania-small-logo.png" />
+    <Content Include="Images\WWE-Logo.png" />
+    <Content Include="Images\WWE-small-logo.png" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -245,6 +257,9 @@
     <Content Include="Scripts\angular-aria.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
+    <None Include="Properties\PublishProfiles\cardshark %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\cardshark %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\cardshark.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -1037,10 +1052,11 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Scripts\version.json" />
     <Content Include="Views\Home\Event.cshtml" />
+    <Content Include="templates\Event.html" />
+    <Content Include="templates\Organization.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

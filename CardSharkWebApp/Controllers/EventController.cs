@@ -9,16 +9,17 @@ using System.Web.Http;
 
 namespace CardSharkWebApp.Controllers
 {
+    [RoutePrefix("api/organization/{companyName}")]
+    [Authorize]
     public class EventController : ApiController
     {
         private static CardSharkRepo repo = new CardSharkRepo();
-        private CardSharkContext db = new CardSharkContext();
 
         // GET api/event
-        [Route("api/event")]
-        public List<Event> Get()
+        [HttpGet]
+        [Route("event")]
+        public List<Event> GetEvents(string companyName)
         {
-            string companyName = "WWE";
             int companyID = repo.GetOrganizationID(companyName);
             return repo.GetEvents(companyID);
         }

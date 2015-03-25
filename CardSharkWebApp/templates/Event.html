@@ -1,9 +1,6 @@
-﻿@{
-    ViewBag.Title = "Event";
-}
-<div class="container col-md-12 orgtitle">
+﻿<div class="container col-md-12 orgtitle">
     <h2>Pick An Event</h2>
-    <div class="outerCardBox" ng-controller="OrganizationCtrl">
+    <div class="outerCardBox" ng-controller="EventCtrl">
         <div ng-repeat="event in events">
             <div class="container col-xs-8 col-md-6 orgcard">
                 <div class="orgcardimg {{event.name}}-Card"></div>

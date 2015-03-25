@@ -56,13 +56,29 @@ textarea {
 }
 
 .UFC-Card{
-  background: url(Images/UFC-logo.png) center center no-repeat;
+  background: url(../Images/UFC-logo.png) center center no-repeat;
 }
 
 .WWE-Card{
   max-height: inherit;
-  background: url(Images/WWE-logo.png) center center no-repeat;
+  background: url(../Images/WWE-logo.png) center center no-repeat;
 }
+
+.TLC-Card{
+  max-height: inherit;
+  background: url(../Images/TLC-logo.png) center center no-repeat;
+}
+
+.Rumble-Card{
+  max-height: inherit;
+  background: url(../Images/Royal-Rumble-Logo.jpg) center center no-repeat;
+}
+
+.Fastlane-Card{
+  max-height: inherit;
+  background: url(../Images/Fastlane-Logo.png) center center no-repeat;
+}
+
 .redline{
     border: 0; 
     height: 1px; 
@@ -86,11 +102,28 @@ textarea {
   box-shadow: 0 0 6px #404040;
 }
 .UFC-Card{
-  background: url(Images/UFC-small-logo.png) center center no-repeat;
+  background: url(../Images/UFC-small-logo.png) center center no-repeat;
 }
+
 .WWE-Card{
   max-height: inherit;
-  background: url(Images/WWE-small-logo.png) center center no-repeat;
+  background: url(../Images/WWE-small-logo.png) center center no-repeat;
 }
+
+.TLC-Card{
+  max-height: inherit;
+  background: url(../Images/TLC-small-logo.png) center center no-repeat;
+}
+
+.Rumble-Card{
+  max-height: inherit;
+  background: url(../Images/Royal-Rumble-small-logo.jpg) center center no-repeat;
+}
+
+.Fastlane-Card{
+  max-height: inherit;
+  background: url(../Images/Fastlane-small-logo.png) center center no-repeat;
+}
+
 }
 

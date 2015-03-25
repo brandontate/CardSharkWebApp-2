@@ -13,7 +13,7 @@ namespace CardSharkWebApp.Repository
 {
     public class CardSharkRepo : ApiController
     {
-        private CardSharkContext db = new CardSharkContext();
+        protected CardSharkContext db = new CardSharkContext();
 
 
         public List<Organization> GetOrganizations()
@@ -25,12 +25,7 @@ namespace CardSharkWebApp.Repository
 
             foreach (var organization in query)
             {
-                Organization org = new Organization
-                {
-                    ID = organization.ID,
-                    Name = organization.Name
-                };
-                organizationList.Add(org);
+                organizationList.Add(organization);
             }
             return organizationList;
         }

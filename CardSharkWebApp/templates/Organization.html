@@ -1,0 +1,10 @@
+﻿<div class="container col-md-12 orgtitle">
+    <h2>Pick An Organization</h2>
+    <div classe="outerCardBox" ng-controller="OrganizationCtrl">
+        <div ng-repeat="orgs in organizations">
+            <div class="container col-xs-8 col-md-6 orgcard">
+                <a ng-click="getOrgName(orgs.name)" ng-href="#/Organization/{{orgs.name}}/Event"><div class="orgcardimg {{orgs.name}}-Card"></div></a>
+            </div>
+        </div>
+    </div>
+</div>

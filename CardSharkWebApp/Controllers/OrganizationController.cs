@@ -15,11 +15,10 @@ namespace CardSharkWebApp.Controllers
     public class OrganizationController : ApiController
     {
         private static CardSharkRepo repo = new CardSharkRepo();
-        private CardSharkContext db = new CardSharkContext();
 
         // GET api/organization
         [HttpGet]
-        [Route("list")]
+        [Route("")]
         public List<Organization>GetOrganizations()
         {
             return repo.GetOrganizations();
